@@ -9,6 +9,9 @@ body {
   border-top: 30px solid #333;
 }
 
+ol, ul {
+  padding: 0px 0 2px 20px;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -76,13 +79,14 @@ body {
 }
 .marketing h2 {
   font-weight: normal;
+  padding-bottom: 8px;
 }
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
 }
 .bg {
-  background-color: #F18A41; /*#ED723A;*/
+  background-color: #FF8222; /*#F18A41; /*#ED723A;*/
   padding-top: 60px;
   padding-bottom: 60px;
   margin-top: 60px;
@@ -105,7 +109,9 @@ body {
 }
 
 .lead {
-  font-size: 18px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.6;
 }
 
 /* RESPONSIVE CSS
@@ -139,7 +145,7 @@ body {
   }
 
   .featurette-heading {
-    font-size: 36px;
+    font-size: 28px;
   }
 }
 
