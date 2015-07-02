@@ -6,7 +6,7 @@ body {
   padding-bottom: 40px;
   padding-top: 120px;
   color: #5a5a5a;
-  border-top: 30px solid #333;
+  border-top: 20px solid #275B93;
 }
 
 ol, ul {
@@ -37,6 +37,10 @@ ol, ul {
 .navbar-wrapper .navbar .container {
   width: auto;
 }
+.navbar-brand {
+  padding-left: 0;
+  padding-right: 0;
+}
 .navbar-brand>img {
   margin-top: -25%;
   height: 100px;
@@ -49,6 +53,7 @@ ol, ul {
 .carousel {
   height: 500px;
   margin-bottom: 60px;
+  border-top: 20px solid #FF8222;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -120,7 +125,7 @@ ol, ul {
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 20px;
   }
   .navbar-wrapper .container {
