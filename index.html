@@ -31,47 +31,48 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/logo-name.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#who">Who uses it?</a></li>
+            <li><a href="#where">Install where?</a></li>
+            <li><a href="#specs">Specifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="header">
       <div class="container">
 
-        <nav class="navbar xnavbar-inverse xnavbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav navbar-right">
-            <li class="navbar-text">Contact Brent on</li>
-            <li class="navbar-text">021 288 7876</li>
-            <li class="navbar-text">03 384 0596</li>
-		        <li>
-		        	<script language="JavaScript">
-					var username = "brent";
-					var hostname = "coolfridge.co.nz";
-					var linktext = username + "@" + hostname ;
-					document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
-					</script>
-		        </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+        <div class="">
+          <img src="img/logo-image.png" class="center-block">
+          <h1>Coolfridge Hire & Lease</h1>
+          <p>We are a NZ owned and operated company<br>offering <em>short term hire</em> or <em>medium&mdash;long term lease</em><br>for <em>businesses</em> or <em>individuals</em><br>needing <em>onsite chilled</em> or <em>frozen storage</em>.</p>
+        </div>
 
       </div>
-    </div>
+     </div>
 
+     <div class="photos"><img src="img/motor-1.jpg"><img src="img/plug-1.jpg"><img src="img/keypad-1.jpg"><img src="img/rack-1.jpg"></div>
 
     <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
-      <ol class="carousel-indicators">
+      <!-- ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -116,23 +117,22 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div><!-- /.carousel -->
+    </div --><!-- /.carousel -->
 
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
+   <a name="features"></a>
+
     <div class="container marketing">
 
       <!-- START THE FEATURETTES -->
-      <a name="what"></a>
-
       <div class="row featurette">
         <div class="col-md-8">
-          <h2 class="featurette-heading">Cool fridge Hire &amp; Lease<span class="text-muted"></span></h2>
-          <p class="lead">We are a NZ owned and operated company offering short term hire or medium – long term lease for businesses or individuals needing onsite chilled or frozen storage.</p>
-          <p class="lead">All equipment is
+          <h2 class="featurette-heading">Features<span class="text-muted"></span></h2>
+          <p>
             <ul>
               <li class="lead">The latest European technology</li>
               <li class="lead">Quick to set up</li>
@@ -142,21 +142,21 @@
           </p>
         </div>
         <div class="col-md-4">
-          <img class="featurette-image img-responsive center-block" src="img/fridge.jpg" alt="">
+          <img class="featurette-image img-responsive center-block" src="img/fridge-1.jpg" alt="">
         </div>
       </div>
   	</div>
+
+  <a name="who"></a>
 
 	<div class="bg">
 		<div class="container marketing">
 
 	      <hr class="hidden featurette-divider">
 
-	      <a name="who"></a>
-
 	      <div class="row featurette">
 	        <div class="col-md-8 col-md-push-4">
-	          <h2 class="featurette-heading">Who uses a Coolfridge Hire &amp; Lease? <span class="text-muted"></span></h2>
+	          <h2 class="featurette-heading">Who uses a Coolfridge? <span class="text-muted"></span></h2>
               <ul>
                 <li class="lead">Any operators needing to compliment or upsize their existing chilled or frozen storage facilities</li>
                 <li class="lead">Startups needing low cost turn - key chilled or frozen storage solutions</li>
@@ -175,21 +175,21 @@
               </ul>
 	        </div>
 	        <div class="col-md-4 col-md-pull-8">
-	          <img class="featurette-image img-responsive center-block" src="img/keypad.jpg" alt="">
+	          <img class="featurette-image img-responsive center-block" src="img/rack-2.jpg" alt="">
 	        </div>
 	      </div>
 	  	</div>
   	</div>
 
+   <a name="where"></a>
+
     <div class="container marketing">
 
       <hr class="hidden featurette-divider">
 
-      <a name="where"></a>
-
       <div class="row featurette">
         <div class="col-md-8">
-          <h2 class="featurette-heading">Where can a Coolfridge Hire &amp; Lease room be installed? <span class="text-muted"></span></h2>
+          <h2 class="featurette-heading">Where can a Coolfridge be installed? <span class="text-muted"></span></h2>
               <ul>
                 <li class="lead">Any location that allows a safe and easy installation</li>
                 <li class="lead">Inside new and existing spaces</li>
@@ -200,24 +200,31 @@
           <p class="lead">We also offer solutions for locations were mains power supply is not available.</p>
         </div>
         <div class="col-md-4">
-          <img class="featurette-image img-responsive center-block" src="img/plug.jpg" alt="">
+          <img class="featurette-image img-responsive center-block" src="img/motor-3.jpg" alt="">
         </div>
       </div>
   	</div>
+
+  <a name="specs"></a>
 
 	<div class="bg">
 	    <div class="container marketing">
 
 	      <hr class="hidden featurette-divider">
 
-	      <a name="specs"></a>
-
 	      <div class="row featurette">
 	        <div class="col-md-8 col-md-push-4">
 	          <h2 class="featurette-heading">Specifications <span class="text-muted"></span></h2>
 	          <p class="lead">
 	          	<ul>
-	          		<li class="lead">Sizes: Sizes to suit most applications</li>
+	          		<li class="lead">Sizes: Sizes to suit most applications, for example:
+                  <ul>
+                    <li class="lead">1.8mL x 2.0mW x 2.4mH</li>
+                    <li class="lead">2.0mL x 2.4mW x 2.4mH</li>
+                    <li class="lead">2.4mL x 2.4mW x 2.4mH</li>
+                    <li class="lead">2.4mL x 3.0mW x 2.4mH</li>
+                  </ul>
+                </li>
 	          		<li class="lead">Construction: White steel skin panels with high density polyurethane foam core. No CFC or HCFC.</li>
 	          		<li class="lead">Power: 230 v 10amp 3 pin supply &amp; 400 v 3 phase supply</li>
 	          		<li class="lead">Thermostat: Electronic, LED Display</li>
@@ -229,23 +236,15 @@
 	          		<li class="lead">Shelving: Adjustable, 4 tiers (optional)</li>
 	          	</ul>
 	          </p>
-            <p class="lead">Some of the standard sizes available</p>
-            <p class="lead">
-              <ul>
-                <li class="lead">1.8mL x 2.0mW x 2.4mH</li>
-                <li class="lead">2.0mL x 2.4mW x 2.4mH</li>
-                <li class="lead">2.4mL x 2.4mW x 2.4mH</li>
-                <li class="lead">2.4mL x 3.0mW x 2.4mH</li>
-              </ul>
-            </p>
-            <p class="lead">Other sizes available to suit most applications</p>
 	        </div>
 	        <div class="col-md-4 col-md-pull-8">
-	          <img class="featurette-image img-responsive center-block" src="img/racks.jpg" alt="">
+	          <img class="featurette-image img-responsive center-block" src="img/door-2.jpg" alt="">
 	        </div>
 	      </div>
 	  	</div>
 	</div>
+
+  <a name="contact"></a>
 
     <div class="container marketing">
 
@@ -253,6 +252,29 @@
 
       <!-- /END THE FEATURETTES -->
 
+                <div class="row">
+                    <div class="footer-col col-md-6">
+                        <h3>Contact</h3>
+                        <p>
+                            <i class="fa fa-fw fa-phone"></i> 03 384 0596
+                        </p>
+                        <p>
+                            <i class="fa fa-fw fa-mobile"></i> 021 288 7876
+                        </p>
+                        <p>
+                            <script language="JavaScript">
+          var username = "brent";
+          var hostname = "coolfridge.co.nz";
+          var linktext = username + "@" + hostname ;
+          document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+          </script>
+                        </p>
+                    </div>
+                    <div class="footer-col col-md-4 col-md-offset-2">
+                        <h3>Location</h3>
+                        <p>...<br>Christchurch</p>
+                    </div>
+                </div>
 
       <!-- FOOTER -->
       <footer>
@@ -262,6 +284,35 @@
 
     </div><!-- /.container -->
 
+    <!--div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar xnavbar-inverse xnavbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+            <li class="navbar-text">Contact Brent on</li>
+            <li class="navbar-text"></li>
+            <li class="navbar-text"></li>
+            <li>
+              
+            </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

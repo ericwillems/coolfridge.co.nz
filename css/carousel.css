@@ -4,13 +4,20 @@
 
 body {
   padding-bottom: 40px;
-  padding-top: 120px;
-  color: #5a5a5a;
-  border-top: 20px solid #275B93;
+  color: #0D4779;
+  background-color: #E2F0F9;
 }
 
 ol, ul {
   padding: 0px 0 2px 20px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+footer {
+  margin-top: 40px;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -38,12 +45,80 @@ ol, ul {
   width: auto;
 }
 .navbar-brand {
-  padding-left: 0;
-  padding-right: 0;
+  background-color: #fff;
+  border-radius: 17px;
+  padding: 5px;
+  height: 34px;
+  margin-top: 6px;
 }
 .navbar-brand>img {
-  margin-top: -25%;
-  height: 100px;
+  height: 24px;
+  border-radius: 18px;
+}
+
+.navbar {
+  background-color: #0D4779;
+  padding-top: 2px;
+  border: none;
+}
+
+.navbar .container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-top: 6px;
+  margin-left: 2px;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+  background-color: #fff;
+}
+
+/* HEADER
+-------------------------------------------------- */
+.header {
+  padding-top: 40px;
+  text-align: center;
+  /*background-color: #68B7E6;
+  color: #fff;*/
+  line-height: 1.6em;
+  font-size: 140%;
+}
+
+.header em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.header img {
+  border-radius: 164px;
+  width: 180px;
+  margin-bottom: 40px;
+}
+
+/* PHOTOS
+-------------------------------------------------- */
+.photos {
+  margin: 40px 0;
+  border-top: 20px solid #0D4779;
+  border-bottom: 20px solid #FF8222;
+}
+
+.photos img {
+  width: 25%;
+}
+
+.container {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -92,10 +167,10 @@ ol, ul {
 }
 .bg {
   background-color: #FF8222; /*#F18A41; /*#ED723A;*/
-  padding-top: 60px;
+  /*padding-top: 60px;
   padding-bottom: 60px;
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 60px;*/
 }
 
 
@@ -115,7 +190,7 @@ ol, ul {
 
 .lead {
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   line-height: 1.6;
 }
 
